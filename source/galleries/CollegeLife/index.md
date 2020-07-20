@@ -1,0 +1,4 @@
+---
+title: "CollegeLife"
+layout: "gallery"
+---

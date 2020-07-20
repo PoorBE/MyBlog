@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-auther: 布莱恩特科比酱
+auther: 鄙人
 img:
 top:
 cover:

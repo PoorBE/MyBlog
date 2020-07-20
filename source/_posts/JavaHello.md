@@ -6,7 +6,12 @@ cover: false
 toc: true
 mathjax: false
 date: 2020-07-06 15:47:05
-tags: Java
+tags: 
+   - Java
+   - 学习
+abbrlink: better00
+categories: Java学习
+summary: Java学习第一步，Hello,World!
 ---
 # HelloWorld
 
@@ -32,5 +37,5 @@ tags: Java
 
 5. 运行java Hello 
 
-   ![image-20200706151840341](../images/image-20200706151831755.png)
+   ![](https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/image-20200706151831755.png)
 

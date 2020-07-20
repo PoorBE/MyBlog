@@ -267,7 +267,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
     opacity: 0.8;
 }
 
@@ -1885,15 +1885,15 @@ footer .copy-right {
 .top-scroll {
     display: none;
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 11px;
+    bottom: 68px;
     padding-top: 15px;
     margin-bottom: 0;
     z-index: 998;
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
     width: 48px;
     height: 48px;
 }
@@ -2129,4 +2129,27 @@ footer .copy-right {
     height: 50px;
     padding: 0px;
     margin: 0px;
+}
+/* 浏览器滚动条样式 */
+/* width */
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+/* 底色 */
+::-webkit-scrollbar-track {
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	border-radius: 8px;
+}
+
+/* 达到样式 */
+::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+	border-radius: 8px;
+}
+/* 选中样式 */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+
 }
